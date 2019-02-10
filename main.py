@@ -21,11 +21,11 @@ def index():
         end = form.end.data
         ndist = form.ndist.data
 
-        result = geneviking.gene_viking(acc, start, end, ndist, None)
-        result = flask.Markup(result.to_html())
+        result = geneviking.gene_viking(acc, start, end, ndist, 'tmp/geneviking_result.tsv')
+        result = flask.Markup(result.to_html(classes='min'))
 
         return flask.render_template("result.html",
-                                      form=form,
+                                    form=form,
                                acc=acc,
                                start=start,
                                end=end,
@@ -34,9 +34,18 @@ def index():
     else:
         return flask.render_template("home.html", form=form)
 
+
 @app.route('/about', methods=['GET', 'POST'])
 def about():
   return flask.render_template('about.html')
+
+
+@app.route('/download')
+def download_tsv():
+    return flask.send_file('tmp/geneviking_result.tsv',
+                           mimetype='text',
+                           attachment_filename='result.tsv',
+                           as_attachment=True)
 
 
 if __name__ == '__main__':

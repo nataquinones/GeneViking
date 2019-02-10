@@ -1,22 +1,87 @@
 <!DOCTYPE html>
 <html>
+    <!-- HEAD -->
+    <head>
+        <!-- Website title -->
+        <title>
+            GeneViking
+        </title>
+        <!-- Styles and fonts -->
+        <link rel=stylesheet type=text/css media="all" href="{{ url_for('static', filename='style.css')}}">
+        <link rel=stylesheet type=text/css media="all" href="{{ url_for('static', filename='fonts.css')}}">
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    </head>
 
-<head>
-    <title>
-        GeneViking 0.2
-    </title>
-</head>
+    <!-- BODY -->
+    <body>
+        <!-- navigation bar -->
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <!-- title - irght -->
+                <div id="logo">
+                    <h1>
+                        <!-- logo -->
+                        <img class="logo_sm" src='../static/gv_logo.png'>
+                        <!-- title -->
+                        <a href="#">GeneViking</a></h1>
+                </div>
+                <!-- menu - left -->
+                <div id="menu">
+                    <ul>
+                        <li class="current_page_item">
+                            <a href="/" accesskey="1" title="">Home</a>
+                        </li>
+                        <li>
+                            <a href="/about" accesskey="2" title="">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-<body>
-    <h1>GeneViking 0.2</h1>
-    <a href=/about>About</a>
-    <form method=post action="">
-        <p>Accession: {{ form.acc }}</p>
-        <p>Start: {{ form.start }}</p>
-        <p>End: {{ form.end }}</p>
-        <p>Neighborhood distance: {{ form.ndist }}</p>
-        <input type=submit value=search>
-    </form>
-</body>
+
+        <!-- main body -->
+        <!-- title -->
+        <div id="featured-wrapper">
+                <div id="featured" class="extra container">
+                    <!-- title of column -->
+                    <div class="title">
+                        <h2>GeneViking 0.2</h2>
+                        <span class="byline">Find genomic neighbors</span>
+                    </div>
+                    
+                    <div id="page">
+                    <!-- left column -->
+                    
+                        <div id="content">
+                        <!-- content of column - form -->
+                        <form method=post action="">
+                            <p>Accession: {{ form.acc(value="NZ_CP025054.1")}}</p>
+                            <p>Start: {{ form.start(value=12910)}}</p>
+                            <p>End: {{ form.end(value=13287)}}</p>
+                            <p>Neighborhood distance: {{ form.ndist(value=10000)}}</p>
+                            <div id="featured" class="extra2 container">
+                            <div class="title">
+                                <input type=submit class="button" value=search>
+                            </div>
+                            </div>
+                        </form>
+                        </div>
+            </div>
+
+                </div>
+        </div>
+        <!-- footer -->
+        <div id="featured-wrapper">
+                <div id="featured" class="extra2 container">
+                        <p>Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum ut, vestibulum eu, facilisis quis, arcu. Mauris a dolor. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed blandit. Phasellus pellentesque, ante nec iaculis dapibus, eros justo auctor lectus.</p>
+                </div>
+        </div>
+
+        <!-- fofooter -->
+        <div id="copyright" class="container">
+            <p>License | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> | GeneViking by <a href="https://github.com/nataquinones" target="_blank" rel="nofollow">Natalia Quinones-Olvera</a></p>
+        </div>
+    </body>
 
 </html>

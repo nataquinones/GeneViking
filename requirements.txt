@@ -1,0 +1,5 @@
+Flask==0.12.2
+Biopython==1.70
+pandas==0.22.
+WTForms==2.2.1
+requirements.txt (END)

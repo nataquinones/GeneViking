@@ -1,11 +1,65 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        About
-    </title>
-</head>
+
 <body>
     Under construction.
 </body>
+
+
+
+<!DOCTYPE html>
+<html>
+    <!-- HEAD -->
+    <head>
+        <!-- Website title -->
+        <title>
+            GeneViking - About
+        </title>
+        <!-- Styles and fonts -->
+        <link rel=stylesheet type=text/css media="all" href="{{ url_for('static', filename='style.css')}}">
+        <link rel=stylesheet type=text/css media="all" href="{{ url_for('static', filename='fonts.css')}}">
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    </head>
+
+    <!-- BODY -->
+    <body>
+        <!-- navigation bar -->
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <!-- title - irght -->
+                <div id="logo">
+                    <h1>
+                        <!-- logo -->
+                        <img class="logo_sm" src='../static/gv_logo.png'>
+                        <!-- title -->
+                        <a href="#">GeneViking</a></h1>
+                </div>
+                <!-- menu - left -->
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="/" accesskey="1" title="">Home</a>
+                        </li>
+                        <li class="current_page_item">
+                            <a href="/about" accesskey="2" title="">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- main body -->
+
+        <!-- footer -->
+        <div id="featured-wrapper">
+                <div id="featured" class="extra2 container">
+                        <p>Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum ut, vestibulum eu, facilisis quis, arcu. Mauris a dolor. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed blandit. Phasellus pellentesque, ante nec iaculis dapibus, eros justo auctor lectus.</p>
+                </div>
+        </div>
+
+        <!-- fofooter -->
+        <div id="copyright" class="container">
+            <p>License | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> | GeneViking by <a href="https://github.com/nataquinones" target="_blank" rel="nofollow">Natalia Quinones-Olvera</a></p>
+        </div>
+    </body>
+
 </html>

@@ -7,19 +7,19 @@ GeneViking is a web app to obtain a list of genes in a genomic location.
 ## Use locally:
 1. Create a virtual environment.
 
----
+~~~~
 virtualenv env
 source env/bin/activate
----
+~~~~
 
 2. Install requirements.
 
----
+~~~~
 pip install -r requirements.txt
----
+~~~~
 
 3. Run the app:
----
+~~~~
 python main.py
 http://localhost:5000
----
+~~~~

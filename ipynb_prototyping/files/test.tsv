@@ -1,0 +1,104 @@
+type	acc	product	start	end	strand	query_overlap
+CDS	AUA81407.1	hypothetical protein	<651514	652834	-	
+CDS	AUA81408.1	hypothetical protein	652844	653074	-	
+CDS	AUA81409.1	XRE family transcriptional regulator	653172	653411	+	
+CDS_pseudo	None	integrase	653416	654435	+	
+tRNA		tRNA-Met	654543	654619	-	
+CDS	AUA81410.1	bifunctional diguanylate cyclase/phosphodiesterase	654635	658372	-	
+CDS	AUA81411.1	RNA polymerase sigma factor RpoD	658479	660332	-	
+CDS	AUA81412.1	DNA primase	660412	662406	-	
+CDS	AUA81413.1	GatB/YqeY domain-containing protein	662489	662938	-	
+CDS	AUA81414.1	30S ribosomal protein S21	663008	663223	-	
+CDS	AUA81415.1	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD	663424	664449	+	
+CDS	AUA81416.1	glycerol-3-phosphate acyltransferase	664528	665097	-	
+CDS	AUA81417.1	dihydroneopterin aldolase	665181	665534	+	
+CDS	AUA81418.1	2-amino-4-hydroxy-6- hydroxymethyldihydropteridine diphosphokinase	665525	666067	+	
+CDS	AUA81419.1	multifunctional tRNA nucleotidyltransferase/2',3'-cyclic phosphodiesterase/2' nucleotidase/2'phosphatase	666040	667272	-	
+CDS	AUA81420.1	DUF4136 domain-containing protein	667316	667822	-	
+CDS	AUA81421.1	SpoVR family protein	667917	669470	-	
+CDS	AUA81422.1	hypothetical protein	669467	670738	-	
+CDS	AUA81423.1	PrkA family serine protein kinase	670839	672761	-	
+CDS	AUA81424.1	thiosulfate sulfurtransferase	673040	673372	-	
+CDS	AUA81425.1	bis(5'-nucleosyl)-tetraphosphatase (symmetrical)	673416	674267	-	
+CDS	AUA81426.1	Co2+/Mg2+ efflux protein ApaG	674267	674647	-	
+CDS	AUA81427.1	ribosomal RNA small subunit methyltransferase A	674684	675490	-	
+CDS	AUA81428.1	4-hydroxythreonine-4-phosphate dehydrogenase PdxA	675606	676592	-	
+CDS	AUA81429.1	peptidyl-prolyl cis-trans isomerase	676589	677881	-	
+CDS	AUA81430.1	LPS-assembly protein LptD	677862	680636	-	
+CDS	AUA81431.1	aminoglycoside phosphotransferase	680763	681779	+	
+CDS	AUA81432.1	nucleotidyltransferase family protein	681776	682450	+	
+CDS	AUA81433.1	molecular chaperone DjlA	682452	683210	+	
+CDS	AUA81434.1	DUF3530 domain-containing protein	683211	684272	-	
+CDS	AUA81435.1	two-component sensor	684424	686817	+	
+CDS	AUA81436.1	DNA-binding response regulator	686863	687495	+	
+CDS	AUA81437.1	ABC transporter	687624	688658	+	
+CDS	AUA81438.1	polyamine ABC transporter ATP-binding protein	688892	690001	+	
+CDS	AUA81439.1	spermidine/putrescine ABC transporter substrate-binding protein	690057	691103	+	
+CDS	AUA81440.1	ABC transporter permease	691218	692465	+	
+CDS	AUA81441.1	ABC transporter permease	692571	693401	+	
+CDS	AUA81442.1	ribulose-phosphate 3-epimerase	693525	694199	+	
+CDS	AUA81443.1	phosphoglycolate phosphatase	694199	695017	+	
+CDS	AUA81444.1	anthranilate synthase component I	695090	696568	+	
+CDS	AUA81445.1	transcription regulatory protein PrtN	696886	697200	-	
+CDS	AUA81446.1	transcriptional regulator	697300	698070	-	
+CDS	AUA81447.1	conjugal transfer protein TraR	698528	698728	+	
+CDS	AUA81448.1	hypothetical protein	698776	699135	+	
+CDS	AUA81449.1	holin	699498	699947	+	
+CDS	AUA81450.1	hypothetical protein	699969	700484	+	
+CDS	AUA81451.1	phage baseplate assembly protein V	700481	701038	+	
+CDS	AUA81452.1	phage baseplate protein	701191	701517	+	!
+CDS	AUA81453.1	bacteriophage protein	701514	702401	+	!
+CDS	AUA81454.1	phage tail protein I	702394	702927	+	!
+CDS	AUA81455.1	phage tail protein	702929	705034	+	
+CDS	AUA81456.1	phage tail protein	705042	705482	+	
+CDS	AUA81457.1	phage tail sheath family protein	705525	706685	+	
+CDS	AUA81458.1	phage major tail tube protein	706698	707201	+	
+CDS	AUA81459.1	phage tail assembly protein	707216	707560	+	
+CDS	AUA81460.1	phage tail tape measure protein	707730	709967	+	
+CDS	AUA81461.1	phage tail protein	709977	710849	+	
+CDS	AUA81462.1	phage tail protein	710824	711030	+	
+CDS	AUA81463.1	late control protein	711088	712077	+	
+CDS	AUA81464.1	glycoside hydrolase family 19	712110	712739	+	
+CDS	AUA86602.1	hypothetical protein	712736	713098	+	
+CDS	AUA81465.1	hypothetical protein	713095	713352	+	
+CDS_pseudo	None	hypothetical protein	713367	713598	+	
+CDS	AUA81466.1	phage tail protein	713669	714163	+	
+CDS	AUA81467.1	hypothetical protein	714175	714522	+	
+CDS	AUA81468.1	hypothetical protein	714552	714806	+	
+CDS	AUA81469.1	phage tail tape measure protein	714853	716691	+	
+CDS	AUA81470.1	phage tail protein	716684	717025	+	
+CDS	AUA81471.1	phage minor tail protein L	717033	717728	+	
+CDS	AUA81472.1	hydrolase Nlp/P60	717731	718501	+	
+CDS	AUA81473.1	tail assembly protein	718556	719158	+	
+CDS	AUA81474.1	phage tail protein	719217	722876	+	
+CDS	AUA81475.1	phage tail protein	723939	724991	+	
+CDS	AUA81476.1	hypothetical protein	724991	725293	+	
+CDS	AUA81477.1	hypothetical protein	725290	725520	+	
+CDS	AUA81478.1	aminodeoxychorismate/anthranilate synthase component II	725939	726544	+	
+CDS	AUA81479.1	anthranilate phosphoribosyltransferase	726546	727595	+	
+CDS	AUA81480.1	indole-3-glycerol-phosphate synthase	727592	728428	+	
+CDS	AUA81481.1	cyclic AMP receptor-like protein	728490	729134	-	
+CDS	AUA81482.1	OsmC family protein	729406	729828	+	
+CDS	AUA81483.1	S-adenosylmethionine decarboxylase proenzyme	730148	730942	+	
+CDS	AUA81484.1	demethoxyubiquinone hydroxylase family protein	730997	731644	-	
+CDS	AUA81485.1	histidine triad nucleotide-binding protein	731744	732082	-	
+CDS	AUA81486.1	ATPase	732161	733642	+	
+CDS	AUA81487.1	NAD(P)-dependent oxidoreductase	733682	734482	-	
+CDS	AUA81488.1	DUF805 domain-containing protein	734543	735619	-	
+CDS	AUA81489.1	nitronate monooxygenase	735741	736709	-	
+CDS	AUA81490.1	protoporphyrinogen oxidase HemJ	736726	737148	-	
+CDS	AUA81491.1	N-acetyl-gamma-glutamyl-phosphate reductase	737439	738473	+	
+CDS	AUA81492.1	hypothetical protein	738473	739192	+	
+CDS	AUA81493.1	hypothetical protein	739193	739615	+	
+CDS	AUA81494.1	iron-sulfur cluster insertion protein ErpA	739693	740043	+	
+CDS	AUA81495.1	anhydro-N-acetylmuramic acid kinase	740097	741188	-	
+CDS	AUA86603.1	peptidase M23	741191	742534	-	
+CDS	AUA81496.1	Tyrosine--tRNA ligase 2	742819	744018	+	
+rRNA		16S ribosomal RNA	744558	746094	+	
+tRNA		tRNA-Ile	746158	746234	+	
+tRNA		tRNA-Ala	746263	746338	+	
+rRNA		23S ribosomal RNA	746558	749469	+	
+rRNA		5S ribosomal RNA	749599	749714	+	
+CDS	AUA81497.1	bifunctional biotin--[acetyl-CoA-carboxylase] synthetase/biotin operon repressor	749876	750814	+	
+CDS	AUA81498.1	type III pantothenate kinase	750811	751557	+	
+CDS	AUA81499.1	SPOR domain-containing protein	751566	752270	+	
